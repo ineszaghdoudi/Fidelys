@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RegisterActivity2">
+
+    <TextView
+        android:id="@+id/etape2"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:textSize="30dp"
+        android:text="Etape 2"
+        android:textColor="#FFFFFF"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <EditText
+        android:id="@+id/cin"
+        android:background="@drawable/input"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:ems="10"
+        android:hint="  cin/passport"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <EditText
+        android:id="@+id/societe"
+        android:layout_width="198dp"
+        android:layout_height="38dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="  Société"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <EditText
+        android:id="@+id/fax"
+        android:layout_width="190dp"
+        android:layout_height="31dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="  Fax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <EditText
+        android:id="@+id/fonction"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="  Fonction"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <EditText
+        android:id="@+id/nationality"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="  Nationalité"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:background="@drawable/input"
+        android:hint="  Adresse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <EditText
+        android:id="@+id/ville"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:ems="10"
+        android:background="@drawable/input"
+        android:hint="  Ville"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <EditText
+        android:id="@+id/pays"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:autofillHints="@string/Pays"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="  Pays"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <EditText
+        android:id="@+id/teldomicile"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:ems="10"
+        android:hint="  teldomicile"
+        android:inputType="phone"
+        android:background="@drawable/input"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <EditText
+        android:id="@+id/telpro"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:ems="10"
+        android:hint="  telpro"
+        android:inputType="phone"
+        android:background="@drawable/input"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <EditText
+        android:id="@+id/telmobile"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:ems="10"
+        android:hint="telmobile"
+        android:inputType="phone"
+        android:background="@drawable/input"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <EditText
+        android:id="@+id/codepostal"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:autofillHints="@string/hide_bottom_view_on_scroll_behavior"
+        android:ems="10"
+        android:background="@drawable/input"
+        android:hint="  codepostal"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <TextView
+        android:id="@+id/languee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Langue"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <RadioGroup
+        android:id="@+id/langue"
+        android:layout_width="326dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862">
+
+
+        <RadioButton
+            android:id="@+id/fr"
+            android:layout_width="142dp"
+            android:layout_height="24dp"
+            android:text="@string/Francais"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/societe"
+            app:layout_constraintVertical_bias="0.665" />
+
+        <RadioButton
+            android:id="@+id/eng"
+            android:layout_width="142dp"
+            android:layout_height="24dp"
+
+            android:text="@string/Anglais"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/langue"
+            app:layout_constraintVertical_bias="0.087" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/envoyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Envoyer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/langue"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <Button
+        android:id="@+id/annuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="@string/Annuler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

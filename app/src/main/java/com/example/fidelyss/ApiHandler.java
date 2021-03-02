@@ -1,0 +1,34 @@
+package com.example.fidelyss;
+
+import java.util.Date;
+
+import retrofit.Call;
+import retrofit.http.Field;
+import retrofit.http.FormUrlEncoded;
+import retrofit.http.POST;
+
+public interface ApiHandler {
+
+    @FormUrlEncoded
+    @POST("fidelysapi/inscription.php")
+    Call<user> insertUser(
+            @Field("id") String var1,
+            @Field("sexe") String var2,
+            @Field("nom") String var3,
+            @Field("prenom") String var4,
+            @Field("datenaiss") Date var5,
+            @Field("email") String var6,
+            @Field("nationalite") String var7,
+            @Field("adressedomicile") String var8,
+            @Field("ville") String var9,
+            @Field("codepostal") String var10,
+            @Field("pays") String var11,
+            @Field("teldomicile") String var12,
+            @Field("telmobile") String var13,
+            @Field("societe") String var14,
+            @Field("fonction") String var15,
+            @Field("telprofessionnel") String var16,
+            @Field("fax") String var17,
+            @Field("langue") String var18
+    );
+}

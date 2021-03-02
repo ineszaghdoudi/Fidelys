@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Fidelyss</string>
+    <string name="Email">Email</string>
+    <string name="Prenom">Prenom</string>
+    <string name="Nom">Nom </string>
+    <string name="Continue">Continuer </string>
+    <string name="Annuler">Annuler </string>
+    <string name="Birthdate">Date de Naissance </string>
+    <string name="MISS">MISS </string>
+    <string name="MRS">MRS </string>
+    <string name="M">M </string>
+    <string name="SignUp">SignUp </string>
+    <string name="cin">Cin</string>
+    <string name="Société">Societe</string>
+    <string name="Fax">Fax</string>
+    <string name="Fonction">Fonction</string>
+    <string name="Nationalité">  Nationalite</string>
+    <string name="Adresse">Adresse</string>
+    <string name="Ville">Ville</string>
+    <string name="Pays">Pays</string>
+    <string name="teldomicile">Telephone domicile</string>
+    <string name="telpro">Telephone professionnel</string>
+    <string name="telmobile">Telephone mobile</string>
+    <string name="codepostal">Code postal</string>
+    <string name="Langue">Langue</string>
+    <string name="Francais">Francais</string>
+    <string name="Anglais">Anglais</string>
+    <string name="Envoyer">Envoyer</string>
+
 </resources>
