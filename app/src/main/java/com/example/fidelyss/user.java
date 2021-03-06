@@ -22,8 +22,14 @@ public class user  {
     private String telprofessionnel;
     private String fax;
     private String langue;
+    private String preference;
+    private String assistance;
+    private String habitude;
+    private String type;
+    private String paiement;
+    private String classeh;
 
-    public user(String id, String sexe, String nom, String prenom, Date datenaiss, String email, String nationalite, String adressdomicile, String ville, String codepostal, String pays, String teldomicile, String telmobile, String societe, String fonction, String telprofessionnel, String fax, String langue) {
+    public user(String id, String sexe, String nom, String prenom, Date datenaiss, String email, String nationalite, String adressdomicile, String ville, String codepostal, String pays, String teldomicile, String telmobile, String societe, String fonction, String telprofessionnel, String fax, String langue, String preference, String assistance, String habitude, String type, String paiement, String classeh) {
         this.id = id;
         this.sexe = sexe;
         this.nom = nom;
@@ -42,6 +48,12 @@ public class user  {
         this.telprofessionnel = telprofessionnel;
         this.fax = fax;
         this.langue = langue;
+        this.preference = preference;
+        this.assistance = assistance;
+        this.habitude = habitude;
+        this.type = type;
+        this.paiement = paiement;
+        this.classeh = classeh;
     }
 
     public user() {
@@ -190,5 +202,53 @@ public class user  {
 
     public void setLangue(String langue) {
         this.langue = langue;
+    }
+
+    public String getPreference() {
+        return preference;
+    }
+
+    public void setPreference(String preference) {
+        this.preference = preference;
+    }
+
+    public String getAssistance() {
+        return assistance;
+    }
+
+    public void setAssistance(String assistance) {
+        this.assistance = assistance;
+    }
+
+    public String getHabitude() {
+        return habitude;
+    }
+
+    public void setHabitude(String habitude) {
+        this.habitude = habitude;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getPaiement() {
+        return paiement;
+    }
+
+    public void setPaiement(String paiement) {
+        this.paiement = paiement;
+    }
+
+    public String getClasseh() {
+        return classeh;
+    }
+
+    public void setClasseh(String classeh) {
+        this.classeh = classeh;
     }
 }

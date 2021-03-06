@@ -12,6 +12,8 @@
     <string name="SignUp">SignUp </string>
     <string name="cin">Cin</string>
     <string name="Société">Societe</string>
+    <string name="ind">individuelle</string>
+    <string name="fam">familiale</string>
     <string name="Fax">Fax</string>
     <string name="Fonction">Fonction</string>
     <string name="Nationalité">  Nationalite</string>
@@ -26,5 +28,6 @@
     <string name="Francais">Francais</string>
     <string name="Anglais">Anglais</string>
     <string name="Envoyer">Envoyer</string>
+    <string name="carte_de_cr_dit">Carte de crédit</string>
 
 </resources>

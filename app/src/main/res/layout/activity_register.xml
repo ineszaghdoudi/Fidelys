@@ -7,38 +7,42 @@
     android:background="@drawable/background"
     tools:context=".RegisterActivity">
 
+
     <TextView
         android:id="@+id/etape1"
         android:layout_width="125dp"
         android:layout_height="37dp"
-        android:textSize="30dp"
         android:text="Etape 1"
         android:textColor="#FFFFFF"
-
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.198" />
+        app:layout_constraintVertical_bias="0.136" />
+
 
     <RadioGroup
         android:id="@+id/sexe"
-        android:layout_width="236dp"
-        android:layout_height="39dp"
+        android:layout_width="310dp"
+
+        android:layout_height="36dp"
         android:layout_marginTop="104dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.284">
+        app:layout_constraintVertical_bias="0.133">
 
         <RadioButton
             android:id="@+id/m"
+            android:checked="true"
+            android:buttonTint="@color/red"
             android:layout_width="wrap_content"
-            android:layout_height="23dp"
+            android:layout_height="39dp"
             android:text="@string/M"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/MRS"
+            android:buttonTint="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -60,9 +65,10 @@
 
         <RadioButton
             android:id="@+id/miss"
-            android:layout_width="129dp"
+            android:layout_width="128dp"
             android:layout_height="wrap_content"
             android:text="@string/MISS"
+            android:buttonTint="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.827"
@@ -73,95 +79,110 @@
 
     <EditText
         android:id="@+id/Nom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:ems="10"
+        android:layout_width="238dp"
+        android:layout_height="38dp"
+        android:width="250dp"
         android:background="@drawable/input"
-        android:hint="  Nom..."
+        android:ems="10"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:hint="Nom"
         android:inputType="textPersonName"
+
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.369" />
 
     <EditText
         android:id="@+id/Prenom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="238dp"
+        android:layout_height="38dp"
         android:layout_marginTop="26dp"
         android:autofillHints="@string/Prenom"
         android:background="@drawable/input"
         android:ems="10"
-        android:hint="  Prenom"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:hint="Prenom"
         android:inputType="textPersonName"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="238dp"
+        android:layout_height="38dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Date De Naissance"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Prenom"
+        app:layout_constraintVertical_bias="0.202" />
 
     <EditText
         android:id="@+id/Email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:hint="@string/Email"
+        android:layout_width="238dp"
+        android:layout_height="38dp"
+        android:autofillHints="@string/Email"
         android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Date"
-        app:layout_constraintVertical_bias="0.111"
-        android:autofillHints="@string/Email"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvDate"
+        app:layout_constraintVertical_bias="0.125" />
+
 
     <Button
         android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
         android:shadowColor="#2196F3"
         android:text="@string/Continue"
+        android:textColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintHorizontal_bias="0.198"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Email"
-        app:layout_constraintVertical_bias="0.381"
+        app:layout_constraintVertical_bias="0.296"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/red"
         android:text="@string/Annuler"
+        android:backgroundTint="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/Email"
-        app:layout_constraintVertical_bias="0.381"
+        app:layout_constraintVertical_bias="0.296"
         tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/Date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autofillHints="@string/Birthdate"
-        android:ems="10"
-        android:background="@drawable/input"
-        android:hint="@string/Birthdate"
-        app:layout_constraintBottom_toBottomOf="parent"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/Prenom"
-        app:layout_constraintVertical_bias="0.158" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,6 +29,12 @@ public interface ApiHandler {
             @Field("fonction") String var15,
             @Field("telprofessionnel") String var16,
             @Field("fax") String var17,
-            @Field("langue") String var18
+            @Field("langue") String var18,
+            @Field("preference") String var19,
+            @Field("paiement") String var20,
+            @Field("habitude") String var21,
+            @Field("classeh") String var22,
+            @Field("assistance") String var23,
+            @Field("type") String var24
     );
 }
