@@ -15,9 +15,10 @@
         android:textColor="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/type"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
         android:id="@+id/type"
@@ -26,17 +27,17 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.682"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26">
+        app:layout_constraintVertical_bias="0.281">
 
 
         <RadioButton
             android:id="@+id/ind"
-            android:buttonTint="@color/red"
             android:layout_width="144dp"
             android:layout_height="24dp"
+            android:buttonTint="@color/red"
             android:text="@string/ind"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -50,14 +51,14 @@
             android:id="@+id/fam"
             android:layout_width="142dp"
             android:layout_height="24dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="508dp"
             android:buttonTint="@color/red"
             android:text="@string/fam"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/langue"
-            app:layout_constraintVertical_bias="0.087" />
+            android:textColor="@color/black" />
+
     </RadioGroup>
+
 
     <TextView
         android:id="@+id/preference"
@@ -67,9 +68,10 @@
         android:textColor="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/pref"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
         android:id="@+id/pref"
@@ -78,18 +80,18 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545">
+        app:layout_constraintVertical_bias="0.558">
 
 
         <RadioButton
             android:id="@+id/hub"
             android:layout_width="135dp"
-            android:layout_height="36dp"
-            android:text="Côté hublot"
+            android:layout_height="match_parent"
             android:buttonTint="@color/red"
+            android:text="Côté hublot"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -131,9 +133,10 @@
         android:textColor="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/payment"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.969" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
         android:id="@+id/payment"
@@ -145,7 +148,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445">
+        app:layout_constraintVertical_bias="0.461">
 
 
         <RadioButton
@@ -196,10 +199,10 @@
         android:textColor="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/classh"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.245"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.979" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
         android:id="@+id/classh"
@@ -208,18 +211,18 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintHorizontal_bias="0.773"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639">
+        app:layout_constraintVertical_bias="0.665">
 
 
         <RadioButton
             android:id="@+id/business"
             android:layout_width="142dp"
             android:layout_height="24dp"
-            android:text="Business"
             android:buttonTint="@color/red"
+            android:text="Business"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -232,16 +235,15 @@
             android:id="@+id/economique"
             android:layout_width="142dp"
             android:layout_height="24dp"
+            android:buttonTint="@color/red"
             android:text="Economique"
             android:textColor="@color/black"
-            android:buttonTint="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/langue"
             app:layout_constraintVertical_bias="0.087" />
 
     </RadioGroup>
-
 
     <TextView
         android:id="@+id/habits"
@@ -251,9 +253,10 @@
         android:textColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <RadioGroup
         android:id="@+id/habitude"
@@ -265,16 +268,16 @@
         app:layout_constraintHorizontal_bias="0.716"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74">
+        app:layout_constraintVertical_bias="0.77">
 
 
         <RadioButton
             android:id="@+id/seul"
             android:layout_width="142dp"
             android:layout_height="24dp"
+            android:buttonTint="@color/red"
             android:text="Seul"
             android:textColor="@color/black"
-            android:buttonTint="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.24"
@@ -304,10 +307,10 @@
         android:textColor="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/assistance"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
         android:id="@+id/assistance"
@@ -316,19 +319,19 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351">
+        app:layout_constraintVertical_bias="0.367">
 
 
         <RadioButton
             android:id="@+id/oui"
             android:layout_width="142dp"
             android:layout_height="24dp"
+            android:buttonTint="@color/red"
             android:text="Oui"
             android:textColor="@color/black"
-            android:buttonTint="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.24"
@@ -355,15 +358,15 @@
         android:id="@+id/tos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Accept the terms of use"
         android:buttonTint="@color/red"
+        android:text="Accept the terms of use"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841" />
+        app:layout_constraintVertical_bias="0.86" />
 
     <Button
         android:id="@+id/add"
@@ -390,5 +393,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
